@@ -1,0 +1,49 @@
+[
+    {
+        "id": 1,
+        "title": "No Tomorrow",
+        "artist": "Serj Tankian",
+        "times_played": 120,
+        "url": "https://soundcloud.com/pieceoflembas/metal-hellsinger-no-tomorrow-ft-serj-tankian-from-system-of-a-down"
+    },
+    {
+        "id": 2,
+        "title": "Die For You",
+        "artist": ["Valorant",
+                    "Grabbitz"],
+        "times_played": 150,
+        "url": "https://open.spotify.com/track/2lz3zjQ5QCVXiyOzIk02vW?si=6f9b762881864510"
+    },
+    {
+        "id": 3,
+        "title": "狼之主",
+        "artist": ["塞壬唱片-MSR",
+                    "Adam Gubman",
+                    "Shawn W. Smith"],
+        "times_played": 80,
+        "url": "https://open.spotify.com/track/6GGOQ3F4E3wTRVdBCWvTAE?si=c99507f0f90e4ff4"
+    },
+    {
+        "id": 4,
+        "title": "Edge Of Night",
+        "artist": ["Pentakill",
+                    "Jorn Larde"],
+        "times_played": 60,
+        "url": "https://open.spotify.com/track/3Ro1AMjH9qdY3ZTWfxIFpN?si=8ac42e97b23f41d7"
+    },
+    {
+        "id": 5,
+        "title": "Operation Pyrite",
+        "artist": "塞壬唱片-MSR",
+        "times_played": 65,
+        "url": "https://open.spotify.com/track/3ghYly2jUXbPlOJ7omJtP8?si=2851f65b391046b8"
+    },
+    {
+        "id": 6,
+        "title": "Starboy",
+        "artist": ["The Weeknd",
+                    "Daft Punk"],
+        "times_played": 85,
+        "url": "https://open.spotify.com/track/7MXVkk9YMctZqd1Srtv4MB?si=702d26f56c0c4d44"
+    }
+]

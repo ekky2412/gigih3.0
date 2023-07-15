@@ -1,0 +1,22 @@
+[
+    {
+        "id": 1,
+        "playlist_name": "My Playlist",
+        "song_list": [
+            1,
+            4,
+            6
+        ]
+    },
+    {
+        "id": 2,
+        "playlist_name": "Game Songs",
+        "song_list": [
+            1,
+            2,
+            3,
+            4,
+            5
+        ]
+    }
+]

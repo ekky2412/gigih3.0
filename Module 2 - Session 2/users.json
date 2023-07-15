@@ -1,0 +1,22 @@
+[
+    {
+        "id": 1,
+        "name": "Udin",
+        "province": "South Sumatra"
+    },
+    {
+        "id": 2,
+        "name": "Naufal",
+        "province": "West Java"
+    },
+    {
+        "id": 3,
+        "name": "Effendi",
+        "province": "Yogyakarta"
+    },
+    {
+        "id": 4,
+        "name": "Tsaqib",
+        "province": "East Java"
+    }
+]

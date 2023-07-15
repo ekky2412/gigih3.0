@@ -1,0 +1,27 @@
+[
+  {
+    "id": 1,
+    "name": "Udin",
+    "province_id": 1
+  },
+  {
+    "id": 2,
+    "name": "Naufal",
+    "province_id": 2
+  },
+  {
+    "id": 3,
+    "name": "Effendi",
+    "province_id": 3
+  },
+  {
+    "id": 4,
+    "name": "Tsaqib",
+    "province_id": 4
+  },
+  {
+    "id": 5,
+    "name": "Imanullah",
+    "province_id": 4
+  }
+]
