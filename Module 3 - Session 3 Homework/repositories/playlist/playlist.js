@@ -6,7 +6,11 @@ export const getPlaylistByIDRepo = (id) => {
     return playlist;
 }
 
-export const addSongRepo = (id, song_id) => {
+export const getPlaylistRepo = () => {
+    return playlists;
+}
+
+export const addSongToPlaylistRepo = (id, song_id) => {
     if (!id){
         throw Error("Playlist is not valid");
     }
@@ -17,6 +21,7 @@ export const addSongRepo = (id, song_id) => {
         throw Error("Song Already Exist!");
     }
     playlists[index].song_list.push(song_id)
-    console.log(playlists)
+    // console.log(playlists)
 
+    return getPlaylistByIDRepo(id);
 }

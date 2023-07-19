@@ -1,11 +1,14 @@
-import { getPlaylistByIDRepo } from "../../repositories/playlist/playlist.js";
+import { getPlaylistByIDRepo, getPlaylistRepo, addSongToPlaylistRepo } from "../../repositories/playlist/playlist.js";
 import { getSongsByIDRepo } from "../../repositories/songs/songs.js";
 
 export const getPlaylistByUsecase = (id) => {
     const playlist = getPlaylistByIDRepo(id);
+    // console.log(playlist);
+    
     if(!playlist){
         return null;
     }
+
     // console.log(playlist);
     var songs = [];
     playlist.song_list.forEach((song, i=0) => 
@@ -27,4 +30,16 @@ export const getPlaylistByUsecase = (id) => {
     }
 
     return {...newPlaylist};
+}
+
+export const getPlaylistUsecase = () => {
+    const playlist = getPlaylistRepo();
+    return playlist;
+}
+
+export const addSongUsecase = (id, song_id) => {
+    // console.log(id);
+    getPlaylistByIDRepo(id);
+
+    return addSongToPlaylistRepo(id, song_id);
 }

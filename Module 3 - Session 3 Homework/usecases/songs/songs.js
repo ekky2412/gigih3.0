@@ -1,12 +1,17 @@
-import { getSongsByIDRepo } from "../../repositories/songs/songs.js";
+import { getSongsByIDRepo, getSongsRepo } from "../../repositories/songs/songs.js";
 
 export const getSongsByIDUsecase = (id) => {
-    const song = getSongsByIDRepo(id);
+    const song = getSongsByIDRepo(id)
     if(!song){
         return null;
     }
 
     song.times_played += 1;   
-    console.log(song);
+    // console.log(song);
     return {...song};
+}
+
+export const getSongsUseCase = () => {
+    const song = getSongsRepo();
+    return song;
 }
